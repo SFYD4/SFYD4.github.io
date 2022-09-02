@@ -1,7 +1,7 @@
 
 #introBox  {
 	width: 400px;
-	height: 800px;
+	height: 190px;
 	margin: 0px auto;
 }
 
@@ -16,15 +16,18 @@
 	text-align: center;
 }
 
-#introPoints {
-	font-size: 100px;
+#nameBox {
+	width: 300px;
+	margin: 0px auto;
+}
+
+#nameLetter {
+	font-size: 120px;
+	font-style: bolder;
 	font-family: Pixel Coleco;
     src: url(styles/fonts/Pixel_Coleco.ttf);
 	text-align: center;
 	margin: 0px 0px 0px 0px;
-}
-
-#hoverableText {
 	-webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -34,9 +37,51 @@
 	cursor: pointer;
 }
 
-#hoverableText:hover {
+#nameLetter:hover {
 	font-size: 150px;
 	color: #ff0000;
 	transform: scale(1.1);
 	text-shadow: 10px 10px #ffffff;
+}
+
+#restOfNameEven{
+	font-size: 0px;
+	text-align: left;
+	font-family: Pixel Coleco;
+    src: url(styles/fonts/Pixel_Coleco.ttf);
+	margin: 0px 0px 0px 0px;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+#nameLetter:hover + #restOfNameEven {
+	font-size: 50px;
+	color: #ffffff;
+	transform: scale(1.1);
+}
+
+#restOfNameOdd{
+	font-size: 0px;
+	text-align: right;
+	font-family: Pixel Coleco;
+    src: url(styles/fonts/Pixel_Coleco.ttf);
+	margin: 0px 0px 0px 0px;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+#nameLetter:hover + #restOfNameOdd {
+	font-size: 50px;
+	color: #ffffff;
+	transform: scale(1.1);
 }
