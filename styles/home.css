@@ -1,25 +1,25 @@
-@import url(styles/fonts/Pixel_Coleco.ttf);
-@import url(styles/fonts/Pixel_Digivolve.ttf);
-@import url(styles/fonts/HACKED.ttf);
+@import url('styles/fonts/Pixel_Coleco.ttf');
+@import url('styles/fonts/Pixel_Digivolve.ttf');
+@import url('styles/fonts/HACKED.ttf');
 
 @font-face {
 	font-family: Pixel Coleco;
-    src: 
+    	src: 
 	local("Pixel Coleco"),
-	url(styles/fonts/Pixel_Coleco.ttf) format("truetype");
+	url('styles/fonts/Pixel_Coleco.ttf') format("truetype");
 }
 @font-face {
 	font-family: Pixel Digivolve;
-    src: 
+    	src: 
 	local("Pixel Digivolve"),
-	url(styles/fonts/Pixel_Digivolve.ttf) format("truetype");
+	url('styles/fonts/Pixel_Digivolve.ttf') format("truetype");
 }
 
 @font-face {
   font-family: Hacked;
   src: 
   local("Hacked"),
-  url(styles/fonts/HACKED.ttf) format("truetype");
+  url('styles/fonts/HACKED.ttf') format("truetype");
 }
 
 #introBox  {
