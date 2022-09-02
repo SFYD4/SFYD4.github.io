@@ -49,10 +49,41 @@ main {
 	text-align:center;
 }
 
-#navBar {
+#logoBox {
 	width: 96%;
 	border: 13px dashed #ffffff;
 	margin: 0px auto;
+}
+
+#navButtons {
+	font-size: 55px;
+	font-family: Pixel Digivolve;
+    src: url(styles/fonts/Pixel_Digivolve.ttf;)
+	font-weight: normal;
+	padding: 0px;
+	margin: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	float: center|left;
+	text-align:center;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+#navButtons:hover {
+	color: #ff0000;
+	transform: scale(1.1);
+}
+
+#serparator {
+	width: 97%;
+	border-bottom: 13px dashed #ffffff;
+	margin: 5px auto;
 }
 
 
