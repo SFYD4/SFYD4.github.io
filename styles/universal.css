@@ -10,6 +10,29 @@ gray: #151515 (navBar background)
 */
 
 /*---overall page---*/
+@font-face {
+	font-family: Pixel Coleco;
+    src: 
+	local("Pixel Coleco"),
+	url(styles/fonts/Pixel_Coleco.ttf);
+	font-display: optional;
+}
+@font-face {
+	font-family: Pixel Digivolve;
+    src: 
+	local("Pixel Digivolve"),
+	url(styles/fonts/Pixel_Digivolve.ttf);
+	font-display: optional;
+}
+
+@font-face {
+  font-family: Hacked;
+  src: 
+  local("Hacked"),
+  url(styles/fonts/HACKED.ttf);
+  font-display: optional;
+}
+
 body {
 	background-color: #000000;
 	color: #ffffff;
@@ -26,7 +49,6 @@ main {
 #logo {
 	font-size: 180px;
 	font-family: Hacked;
-    src: url(styles/fonts/HACKED.ttf);
 	font-weight: normal;
 	padding: 0px;
 	margin: 0px;
@@ -39,7 +61,6 @@ main {
 #logoBottom {
 	font-size: 110px;
 	font-family: Hacked;
-    src: url(styles/fonts/HACKED.ttf);
 	font-weight: normal;
 	padding: 0px;
 	margin: 0px;
@@ -58,7 +79,6 @@ main {
 #navButtons {
 	font-size: 55px;
 	font-family: Pixel Digivolve;
-    src: url(styles/fonts/Pixel_Digivolve.ttf;)
 	font-weight: normal;
 	padding: 0px;
 	margin: 10px;
@@ -93,7 +113,6 @@ main {
 
 #copyrights {
 	font-family: Pixel Coleco;
-    src: url(styles/fonts/Pixel_Coleco.ttf);
 }
 
 a {
