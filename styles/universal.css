@@ -13,7 +13,7 @@ gray: #151515 (navBar background)
 body {
 	background-color: #000000;
 	color: #ffffff;
-	font-family: sans-serif;
+	font-family: 'Courier New', monospace;
 }
 
 main {
@@ -26,7 +26,7 @@ main {
 #logo {
 	font-size: 180px;
 	font-family: Hacked;
-    src: url(https://github.com/SFYD4/SFYD4.github.io/blob/main/styles/fonts/HACKED.ttf);
+    src: url(styles/fonts/HACKED.ttf);
 	font-weight: normal;
 	padding: 0px;
 	margin: 0px;
@@ -39,7 +39,7 @@ main {
 #logoBottom {
 	font-size: 110px;
 	font-family: Hacked;
-    src: url(https://github.com/SFYD4/SFYD4.github.io/blob/main/styles/fonts/HACKED.ttf);
+    src: url(styles/fonts/HACKED.ttf);
 	font-weight: normal;
 	padding: 0px;
 	margin: 0px;
