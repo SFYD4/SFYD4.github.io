@@ -10,10 +10,6 @@ gray: #151515 (navBar background)
 */
 
 /*---overall page---*/
-@import url('styles/fonts/Pixel_Coleco.ttf');
-@import url('styles/fonts/Pixel_Digivolve.ttf');
-@import url('styles/fonts/HACKED.ttf');
-
 @font-face {
 	font-family: Pixel Coleco;
     	src: 
@@ -28,10 +24,11 @@ gray: #151515 (navBar background)
 }
 
 @font-face {
-  font-family: Hacked;
-  src: 
-  local("Hacked"),
-  url('styles/fonts/HACKED.ttf') format("truetype");
+	font-family: 'HACKED';
+	src: url('styles/fonts/HACKED.eot');
+	src: local('☺'), url('styles/fonts/HACKED.woff') format('woff'), url('styles/fonts/HACKED.ttf') format('truetype'), url('styles/fonts/HACKED.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 body {
