@@ -1,0 +1,73 @@
+/*
+-------------
+   colors
+-------------
+black: #000000 (page background)
+gray: #151515 (navBar background)
+	  #808080 (navBar border)
+	  #909090 (default text)
+	  
+*/
+
+/*---overall page---*/
+body {
+	background-color: #000000;
+	color: #ffffff;
+	font-family: sans-serif;
+}
+
+main {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/*---navigation bar---*/
+
+#logo {
+	font-size: 180px;
+	font-family: Hacked;
+    src: url(styles/fonts/HACKED.ttf);
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	color: #ff0000;
+	float: center|left;
+	text-align:center;
+}
+
+#logoBottom {
+	font-size: 110px;
+	font-family: Hacked;
+    src: url(styles/fonts/HACKED.ttf);
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	color: #ffffff;
+	float: center|left;
+	text-align:center;
+}
+
+#navBar {
+	width: 96%;
+	border: 13px dashed #ffffff;
+	margin: 0px auto;
+}
+
+
+.footer {
+        width: 100%;
+	text-align: right;
+}
+
+#copyrights {
+	font-family: Pixel Coleco;
+    src: url(styles/fonts/Pixel_Coleco.ttf);
+}
+
+a {
+	text-decoration: none;
+}
+
+

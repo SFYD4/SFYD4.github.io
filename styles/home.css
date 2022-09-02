@@ -1,0 +1,41 @@
+
+#introBox  {
+	width: 400px;
+	height: 400px;
+	margin: 0px auto;
+}
+
+#redText {
+	color: #ff0000;
+}
+
+#intro {
+	font-size: 25px;
+	font-family: Pixel Coleco;
+    src: url(styles/fonts/Pixel_Coleco.ttf);
+	text-align: center;
+}
+
+#introPoints {
+	font-size: 25px;
+	font-family: Pixel Coleco;
+    src: url(styles/fonts/Pixel_Coleco.ttf);
+	text-align: left;
+	margin: 0px 0px 0px 110px;
+}
+
+#hoverableText {
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+#hoverableText:hover {
+	font-size: 40px;
+	color: #ff0000;
+	transform: scale(1.05);
+}
