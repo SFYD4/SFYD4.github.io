@@ -13,30 +13,30 @@ gray: #151515 (navBar background)
 @font-face {
 	font-family: Pixel Coleco;
     	src: 
-	url('#{resource["css:fonts/Pixel_Coleco.ttf"]}') format('truetype'),	
-	url('#{resource["css:fonts/Pixel_Coleco.eot"]}') format('embedded-opentype'),
-	url('#{resource["css:fonts/Pixel_Coleco.otf"]}') format('opentype'),
-	url('#{resource["css:fonts/Pixel_Coleco.svg"]}') format('svg'),	
-	url('#{resource["css:fonts/Pixel_Coleco.woff"]}') format('woff');	
+	url('fonts/Pixel_Coleco.ttf') format('truetype'),	
+	url('fonts/Pixel_Coleco.eot') format('embedded-opentype'),
+	url('fonts/Pixel_Coleco.otf') format('opentype'),
+	url('fonts/Pixel_Coleco.svg') format('svg'),	
+	url('fonts/Pixel_Coleco.woff') format('woff');	
 }
 @font-face {
 	font-family: Pixel Digivolve;
     	src: 
-	url('#{resource["css:fonts/Pixel_Digivolve.ttf"]}') format('truetype'),
-	url('#{resource["css:fonts/Pixel_Digivolve.eot"]}') format('embedded-opentype'),
-	url('#{resource["css:fonts/Pixel_Digivolve.otf"]}') format('opentype'),
-	url('#{resource["css:fonts/Pixel_Digivolve.svg"]}') format('svg'),	
-	url('#{resource["css:fonts/Pixel_Digivolve.woff"]}') format('woff');
+	url('fonts/Pixel_Digivolve.ttf') format('truetype'),
+	url('fonts/Pixel_Digivolve.eot') format('embedded-opentype'),
+	url('fonts/Pixel_Digivolve.otf') format('opentype'),
+	url('fonts/Pixel_Digivolve.svg') format('svg'),	
+	url('fonts/Pixel_Digivolve.woff') format('woff');
 }
 
 @font-face {
   font-family: Hacked;
   src: 
-  url('#{resource["css:fonts/HACKED.ttf"]}') format('truetype'),
-  url('#{resource["css:fonts/HACKED.eot"]}') format('embedded-opentype'),
-  url('#{resource["css:fonts/HACKED.otf"]}') format('opentype'),
-  url('#{resource["css:fonts/HACKED.svg"]}') format('svg'),	
-  url('#{resource["css:fonts/HACKED.woff"]}') format('woff');	  
+  url('fonts/HACKED.ttf') format('truetype'),
+  url('fonts/HACKED.eot') format('embedded-opentype'),
+  url('fonts/HACKED.otf') format('opentype'),
+  url('fonts/HACKED.svg') format('svg'),	
+  url('fonts/HACKED.woff') format('woff');	  
 }
 
 body {
