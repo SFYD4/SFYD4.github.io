@@ -14,21 +14,20 @@ gray: #151515 (navBar background)
 	font-family: Pixel Coleco;
     	src: 
 	local("Pixel Coleco"),
-	url('styles/fonts/Pixel_Coleco.ttf') format("truetype");
+	url('#{resource["css:styles/fonts/Pixel_Coleco.ttf"]}') format('truetype'),	
 }
 @font-face {
 	font-family: Pixel Digivolve;
     	src: 
 	local("Pixel Digivolve"),
-	url('styles/fonts/Pixel_Digivolve.ttf') format("truetype");
+	url('#{resource["css:styles/fonts/Pixel_Digivolve.ttf"]}') format('truetype');
 }
 
 @font-face {
-	font-family: 'HACKED';
-	src: url('styles/fonts/HACKED.eot');
-	src: local('☺'), url('styles/fonts/HACKED.woff') format('woff'), url('styles/fonts/HACKED.ttf') format('truetype'), url('styles/fonts/HACKED.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: Hacked;
+  src: 
+  local("Hacked"),
+  url('#{resource["css:styles/fonts/HACKED.ttf"]}') format('truetype');
 }
 
 body {
